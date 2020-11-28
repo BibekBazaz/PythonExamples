@@ -26,3 +26,8 @@ age=input("Enter age : ")
 gender=input("Enter gender : " )
 
 printDetails(gender=gender,name=name,age=age)
+
+#Lambda Examples
+print("Lambda method example")
+square= lambda x : x**2
+print("Squaring with lamdas : " + str(square(11)))
